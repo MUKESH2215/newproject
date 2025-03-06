@@ -1,0 +1,203 @@
+.a{
+    margin-left:50px;
+    color: #555555;
+    font-family: "Poppins",sans-serif;
+}
+#name{
+    color: rgba(56, 62, 84, 1);
+}
+#logo{
+    position:absolute;
+    bottom: 5px;
+    top: 12px;
+    font-family: "Poppins",sans-serif;
+    color: #383E54;
+}
+nav{
+    padding: 3px;
+    position: fixed;
+    width: 100%;
+}
+#head{
+    font-size:50px;
+    font-family: "Gilroy-Bold",sans-serif;
+}
+#home{
+    margin-left: 400px;
+    color: rgba(248, 151, 31, 1);
+}
+li{
+    display: inline;
+}
+#button{
+    margin-left: 300px;
+    background-color: white;
+    color: rgba(89, 120, 255, 1);
+    border-radius: 5px;
+    border: 2px solid rgba(89, 120, 255, 1) ;    
+    
+}
+#start{
+    background-color: rgba(89, 120, 255, 1);
+    color: white;
+    text-decoration: aliceblue;
+    border-radius: 5px;
+    border:2px solid white;
+    
+}
+#top{
+    background-color:gray;
+    
+}
+#unique{
+    color:rgba(89, 120, 255, 1);
+    font-size: 50px;
+}
+
+nav{
+    background-color:white;
+}
+.d{
+   position: absolute;
+   left: 200px;
+   top:200px;
+    
+    
+}
+
+#square{
+    
+    padding:75px;
+    background-color: rgba(247, 249, 255, 1);
+    height: 200%;
+}
+
+#container{
+    margin-top: 110px;
+    margin-left: 150px;
+    display: inline-block;
+   
+    
+}
+
+#vector32{
+    height: 10px; 
+    width: 220px;
+    margin-left: 200px;
+    margin-bottom:30px;
+    margin-top: 10px;
+    bottom:20px;
+}
+#content{
+    margin-bottom: 30px;
+    font-family: "Gilroy-Medium",sans-serif;
+    color: #121214;
+}
+.message{
+    display: inline;
+}
+#image{
+    width: 33px;
+    height:28px;
+}
+#message1{
+    font-size: 20px;
+    font-family: "Gilroy-Medium",sans-serif;
+    color: #555555;
+}
+#explore
+{
+    margin-top: 20px;
+    background-color:rgba(89, 120, 255, 1);
+    height: 50px;
+    width: 150px;
+    border: 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: "Gilroy-SemiBold",sans-serif;
+}
+#pic{
+    
+    display: inline-block;
+    position: relative;
+    
+}
+
+#computer{
+    margin-left: 100px;   
+    margin-top: 20px;
+}
+#star
+{
+    position: absolute;
+    right: 500px;
+    top: 520px;
+}
+#head1{
+    
+    color: #121214; 
+    font-family: "Gilroy-Bold",sans-serif;
+    margin-right: 550px;
+    font-size: 28px;
+    text-align: center;
+    margin-left: 550px;
+   margin-top: 20px;
+    
+}
+#page2{
+    
+    display: inline-block;
+    position: relative;
+    height: 60%;
+    width: 100%;
+    
+}
+.page2img{
+   margin-left:  150px;
+   margin-bottom: 70px;
+}
+
+#youtube{
+  
+    position: absolute;
+    top: 1050px;
+    right: 700px;
+    
+      
+}
+#right{
+    align-items: end;
+    margin-left:142px;
+}
+#head2{
+    font-family: "Gilroy-Bold" ,sans-serif;
+    text-align: center;
+    font-size: 28px;
+    font-style:Gilroy-Bold;
+    color: #121214;
+    
+}
+#page3
+{
+    height: 200%;
+    width: 100%;
+    
+}
+.page3align{
+    display: grid;
+    padding: 5px;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 250px 250px;
+    margin-top: 50px;
+    margin-left: 220px;
+    width: 80%;
+}
+.fontstyle{
+    font-family: "Gilroy-SemiBold",sans-serif;
+    
+}
+.page3content{
+    font-family: "Gilroy-Medium",sans-serif;
+    color: #555555;
+    font-size: 15px;
+}
