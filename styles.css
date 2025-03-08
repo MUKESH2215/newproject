@@ -18,13 +18,15 @@
     font-family: "Poppins",sans-serif;
     color: #383E54;
 }
-/* nav{
+nav{
+    display: flex;
+    justify-content: center;
     padding: 18px;
     position: fixed;
     width: 100%;
     background-color:white;
     z-index: 2;
-} */
+}
 .top{
     display: flex;
     justify-content: space-evenly;
@@ -65,12 +67,8 @@ li{
     color:rgba(89, 120, 255, 1);
     font-size: 50px;
 }
-.d{
-   position: absolute;
-   left: 100px;
-   top:180px;
-    
-    
+d{
+    flex-shrink: 1;
 }
 .blue
 {
@@ -82,6 +80,8 @@ li{
     padding:120px;
     background-color: rgba(247, 249, 255, 1);
     height: 200%;
+    display: flex;
+    justify-content: center;
 }
 
 #container{
@@ -131,7 +131,6 @@ li{
     font-family: "Gilroy-SemiBold",sans-serif;
 }
 #pic{
-    
     display: inline-block;
     position: relative;
     
@@ -140,12 +139,18 @@ li{
 #computer{
     margin-left: 100px;   
     margin-top: 20px;
+    position: relative;
 }
 #star
 {
     position: absolute;
-    right: 580px;
-    top: 450px;
+    left: 0px;
+    bottom: 20px;
+}
+.page2image{
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
 #head1{
     
@@ -155,11 +160,11 @@ li{
     font-size: 28px;
     text-align: center;
     margin-left: 550px;
-   margin-top: 30px;
-    
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 #page2{
-    
+    display: flex;
     display: inline-block;
     position: relative;
     height: 60%;
@@ -173,9 +178,7 @@ li{
 #youtube{
   
     position: absolute;
-    top: 1000px;
-    right: 700px;
-    
+    top: 230px;
       
 }
 #right{
@@ -191,8 +194,8 @@ li{
     margin-top:50px;
 }
 #page3 {
-    min-height: 100vh;
-    width: 100%;
+    /* min-height: 100vh;
+    width: 100%; */
     background-color: rgba(247, 249, 255, 1);
     display: flex;
     flex-direction: column;
@@ -204,7 +207,7 @@ li{
     font-size: 2rem;
     font-weight: bold;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 .page3align {
@@ -388,3 +391,13 @@ flex: 1; Equal width
   height: 50px;
   align-content: left;
 } */
+.d {
+    position: absolute;
+    left: -30px;
+    top: -23px;
+    rotate: -6.52deg;
+
+}
+.headere_container{
+    position: relative;
+}
